@@ -1,0 +1,16 @@
+{
+  "name": "I-Ching AI",
+  "debug": true,
+  "files": {
+    "./iching.py": "iching.py",
+    "./iching.json": "iching.json"
+  },
+  "js_modules": {
+    "main": {
+      "https://cdn.jsdelivr.net/npm/morphdom@2.7.4/+esm": "morphdom"
+    }
+  },
+  "packages": [
+    "./wheels/puepy-0.6.5-py3-none-any.whl"
+  ]
+}

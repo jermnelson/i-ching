@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I-Ching AI</title>
+  <meta name="description" content="I-Ching Fortune with LLM integration">
+  <meta name="author" content="Jeremy Nelson">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css">
+  <script type="module" src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js"></script>
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css" />
+  <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+  <style>
+   .iching-widget {
+     background-image: url("imgs/i-ching.png");
+     border: 3px solid black;
+     border-radius: 3px;
+     color: white;
+     margin-right: 1em;
+     padding: 1em;
+     width: 500px;
+   }
+  </style>
+</head>
+<body>
+<div id="app">Loading...</div>
+<script type="py" src="./main.py" config="./pyscript.json"></script>
+</body>
+</html>
